@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.Core", "MyShop.Core\MyShop.Core.csproj", "{DF228160-DB90-49DF-8DFD-833F22C6512D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop-Services", "MyShop-Services\MyShop-Services.csproj", "{3D36213E-FFC8-4C4F-A113-8368A1F053C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.Services", "MyShop-Services\MyShop.Services.csproj", "{3D36213E-FFC8-4C4F-A113-8368A1F053C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.DataAccess.InMemory", "MyShop.DataAccess.InMemory\MyShop.DataAccess.InMemory.csproj", "{F5DCF693-4C8B-4DFB-84D4-05C3E2B0959D}"
 EndProject
