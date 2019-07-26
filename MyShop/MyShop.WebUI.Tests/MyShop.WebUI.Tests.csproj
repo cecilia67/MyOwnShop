@@ -83,6 +83,9 @@
     <Reference Include="System.Net.Http.WebRequest" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\BasketControllerTests.cs" />
+    <Compile Include="Mocks\MockContext.cs" />
+    <Compile Include="Mocks\MockHttpContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
   </ItemGroup>
@@ -93,8 +96,24 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MyShop-Services\MyShop.Services.csproj">
+      <Project>{3d36213e-ffc8-4c4f-a113-8368a1f053c3}</Project>
+      <Name>MyShop.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyShop.Core\MyShop.Core.csproj">
+      <Project>{df228160-db90-49df-8dfd-833f22c6512d}</Project>
+      <Name>MyShop.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyShop.DataAccess.InMemory\MyShop.DataAccess.InMemory.csproj">
+      <Project>{f5dcf693-4c8b-4dfb-84d4-05c3e2b0959d}</Project>
+      <Name>MyShop.DataAccess.InMemory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyShop.DataAccess.SQL\MyShop.DataAccess.SQL.csproj">
+      <Project>{6dfa6aa0-f305-4e08-a537-377212b1dcb6}</Project>
+      <Name>MyShop.DataAccess.SQL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MyShop.WebUI\MyShop.WebUI.csproj">
-      <Project>{1D34E47F-F94C-4289-81D5-FA00846032D8}</Project>
+      <Project>{1d34e47f-f94c-4289-81d5-fa00846032d8}</Project>
       <Name>MyShop.WebUI</Name>
     </ProjectReference>
   </ItemGroup>
